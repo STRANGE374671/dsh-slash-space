@@ -4,6 +4,8 @@
 
 Type `、` in a Chinese IME and get ` /` — invoke skills and commands without ever leaving Chinese input.
 
+![The toggle on the left of the composer toolbar](docs/composer-toolbar.png)
+
 ## Why this exists
 
 Calling a skill is a four-step ritual:
