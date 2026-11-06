@@ -1,8 +1,8 @@
 # dsh-slash-space
 
-中文输入法下，不切英文、不补空格，直接调 skill 和命令。
+**中文** | [English](README.en.md)
 
-**English**: A DSH client plugin that turns `、` typed in the composer into ` /`, so you can invoke commands without leaving the Chinese IME. Toggle on the left of the composer toolbar, state stored locally.
+中文输入法下，不切英文、不补空格，直接调 skill 和命令。
 
 ## 为什么做这个
 
