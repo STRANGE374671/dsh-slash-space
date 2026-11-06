@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Slash With Leading Space",
+    "description": "Typing the Chinese enumeration comma in the DSH composer inserts an ASCII slash with a single leading space instead. A small switch at the left of the composer tool row toggles it, and the choice is remembered locally."
+  }
+}

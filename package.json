@@ -1,0 +1,45 @@
+{
+  "name": "dsh-slash-space",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "中文输入法下在 DSH 输入框里打「、」自动变成带前导空格的英文「 /」，输入框工具行左侧带开关。",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "ime",
+    "input",
+    "chinese",
+    "slash"
+  ],
+  "license": "MIT",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg"
+  ],
+  "icon": "icon.svg",
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-ui-conversation"
+      ]
+    }
+  }
+}
