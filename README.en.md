@@ -9,8 +9,10 @@ Type `、` in a Chinese IME and get ` /` — invoke skills and commands without 
 Calling a skill is a four-step ritual:
 
 ```
-switch to the English IME → type / → type a space → switch back to Chinese
+switch to the English IME → type a space → type / → switch back to Chinese
 ```
+
+The space comes first because `/` is only recognized as a command at the start of a line or after whitespace.
 
 Dozens of times a day. Each time you cut into the middle of Chinese typing, the rhythm breaks and your train of thought goes with it.
 
